@@ -1,6 +1,6 @@
 {
-  "name": "Iphone_website",
-  "homepage": "https://Coderfo.github.io/Iphone_website/",
+  "basename": "Iphone_website",
+  "homepage": "https://Coderfo.github.io/Iphone_website",
   "private": true,
   "version": "0.0.0",
   "type": "module",
