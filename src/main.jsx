@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import React from 'react'
 import './index.css'
 import App from './App.jsx'
+import { HashRouter } from 'react-router-dom'
 import * as Sentry from "@sentry/react";
 
 Sentry.init({
@@ -26,4 +27,4 @@ Sentry.init({
 
 
 const root = createRoot(document.getElementById('root'));
-root.render(<App />);
+root.render(<React.StrictMode> <HashRouter> <App /> </HashRouter> </React.StrictMode>);
